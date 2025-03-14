@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.filter-button {
+  margin-bottom: 10px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+.book-cover {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.mt-6 {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
